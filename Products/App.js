@@ -21,10 +21,11 @@ function App() {
           options={{ headerShown: false }}
           name="Products"
           component={ProductsScreen}
+          
         />
         <Stack.Screen
           options={{ headerShown: false }}
-          name="checkout"
+          name="Checkout"
           component={Checkout}
         />
       </>
